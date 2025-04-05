@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cleanz – Mobile Car Detailing</title>
+
+  <!-- Calendly widget CSS & JS -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f7f9;
+      color: #333;
+    }
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    .logo {
+      font-size: 2.5rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    .tagline {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    .section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 2rem;
+    }
+    a.button {
+      display: inline-block;
+      background-color: #0077cc;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 1rem;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Cleanz</div>
+    <div class="tagline">Mobile Car Detailing at Your Doorstep</div>
+  </header>
+
+  <div class="section">
+    <h2>About Us</h2>
+    <p>At Cleanz, we bring top‑tier car detailing right to your driveway. Our professional team uses high‑quality products and equipment—like pressure washers and steam cleaners—to make your car look showroom‑ready, inside and out.</p>
+  </div>
+
+  <div class="section">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Exterior Wash</h3>
+        <p>High‑pressure rinse, foam wash, hand dry & wax.</p>
+      </div>
+      <div class="card">
+        <h3>Interior Detail</h3>
+        <p>Vacuum, deep clean seats, wipe down dashboard & windows.</p>
+      </div>
+      <div class="card">
+        <h3>Full Detail</h3>
+        <p>Complete inside & out service for a full refresh.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Book an Appointment</h2>
+    <p>Schedule your detailing session at your convenience:</p>
+    <!-- Replace the URL below with your actual Calendly event link -->
+    <div class="calendly-inline-widget"
+         data-url="https://calendly.com/YOUR_CALENDLY_URL_HERE"
+         style="min-width:320px;height:630px;">
+    </div>
+    <p>Or email us directly at
+      <a href="mailto:cleanzmobilecardetailing@gmail.com">cleanzmobilecardetailing@gmail.com</a>
+    </p>
+  </div>
+
+  <footer>
+    &copy; 2025 Cleanz Mobile Detailing<br>
+    Email: <a href="mailto:cleanzmobilecardetailing@gmail.com" style="color:#fff;">cleanzmobilecardetailing@gmail.com</a>
+  </footer>
+
+</body>
+</html>
