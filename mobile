@@ -100,9 +100,8 @@
   <div class="section">
     <h2>Book an Appointment</h2>
     <p>Schedule your detailing session at your convenience:</p>
-    <!-- Replace the URL below with your actual Calendly event link -->
     <div class="calendly-inline-widget"
-         data-url="https://calendly.com/YOUR_CALENDLY_URL_HERE"
+         data-url="https://calendly.com/cleanzmobilecardetailing"
          style="min-width:320px;height:630px;">
     </div>
     <p>Or email us directly at
